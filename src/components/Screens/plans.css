@@ -1,0 +1,40 @@
+.plans_details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.plans_details_right>button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+}
+.plans_details_right>.disable_button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: white;
+    background-color: #636262;
+    border: none;
+}
+.plans_details_right > .priceList{
+    margin-top: 10px;
+    padding: 10px 15px;
+    text-align: left;
+    background-color: rgb(49, 45, 45);
+}
+.plans_details_right > .priceList button{
+    padding: 5px 15px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: white;
+    background-color: #bd040d;
+    border: none;
+    cursor: pointer;
+}

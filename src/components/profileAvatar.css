@@ -1,0 +1,27 @@
+.ProfileAvatar{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;  
+    max-width: 300px;
+}
+.imagesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+.imagesContainer > img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+}
+.imagesContainer > img:hover{
+    cursor: pointer;
+}
+
+.ProfileAvatar> .imagesContainer > image:hover + span{
+    display:inline;
+} 

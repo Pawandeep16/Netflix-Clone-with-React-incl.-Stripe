@@ -1,0 +1,75 @@
+.ProfileScreen{
+    height: 100vh;
+    color: white;
+}
+.profileScreenBody{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    max-width: 800px;
+}
+.profileScreenInfo{
+    
+    display: flex;
+}
+.profileScreenInfo> .imagecontainer >img{
+    cursor: pointer;
+    height: 100px;
+}
+.profileScreenBody>h1{
+    font-size: 60px;
+    font-weight: 400;
+    border-bottom: 1px solid #283c2d;
+    margin-bottom: 20px;
+}
+.profileDetails{
+    color: white;
+    margin-left: 25px;
+    flex: 1;
+
+}
+.profileDetails>h2{
+    background-color: gray;
+    padding: 15px;
+    font-size: 15px;
+    padding-left: 20px;
+
+}
+.profileScreenButton{
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+
+}
+.profileScreenPlans>h3{
+    border-bottom: 1px solid #283c2d;
+    padding-bottom: 10px;
+}
+.profileScreenInfo> .imagecontainer{
+    display: flex;
+
+}
+.profileScreenInfo> .imagecontainer >span{
+    z-index: 999;
+    position:absolute;
+    color: red;
+    background-color: white;
+    margin-left: 110px;
+    margin-top: 55px;
+    padding: 0 10px;
+    font-weight: 600;
+    display: none;
+}
+.profileScreenInfo> .imagecontainer > .imageUpdate:hover + span{
+
+    transition: all 1s ease;
+    display: block;
+}
